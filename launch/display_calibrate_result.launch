@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
 
-    <node pkg="tf2_ros" type="static_transform_publisher" name="world_velodyne_tf" output="screen" args="0.035 -0.19 0.00 0.00 -1.57 1.57 world velodyne" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="world_velodyne_tf" output="screen" args="-1.38 0.0 0.85  0.00 -1.57 1.57  world velodyne" />
 
     <node pkg="camera_lidar_cal" type="calibration.py" name="calibration" output="screen" />
 
 
-</launch>	
+</launch>	 
